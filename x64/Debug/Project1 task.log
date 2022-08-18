@@ -1,0 +1,10 @@
+﻿  server.c
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(9,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(11,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(12,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(13,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(14,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(15,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(51): warning C4715: 'recieveTransactionData': not all control paths return a value
+C:\Users\OZY\Desktop\udacity\mine\Project1 task\Project1 task\server.c(100): warning C4715: 'getTransaction': not all control paths return a value
+  Project1 task.vcxproj -> C:\Users\OZY\Desktop\udacity\mine\Project1 task\x64\Debug\Project1 task.exe

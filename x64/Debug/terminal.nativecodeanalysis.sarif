@@ -1,0 +1,81 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/OZY/Desktop/udacity/mine/Project1 task/Project1 task/terminal.c"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 2,
+                  "endLine": 89,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "getTransactionAmount",
+                  "decoratedName": "getTransactionAmount",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/OZY/Desktop/udacity/mine/Project1 task/Project1 task/terminal.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6aa838404b38bf95ad5980d7aa2728a2be63e000e8804210f7e6e9ece67a4c58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ozy/desktop/udacity/mine/project1 task/project1 task/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "d1c1bc7b4365c57cd7ead5f4431950d60dd7d9cbb6f23311cbe2e818e5a5d75f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ozy/desktop/udacity/mine/project1 task/project1 task/card.h"
+          },
+          "hashes": {
+            "sha-256": "55ecc75370d95197d9acc2a6a6a91f292ce496bde55e32278b79f37ba3edfecb"
+          }
+        }
+      ]
+    }
+  ]
+}
